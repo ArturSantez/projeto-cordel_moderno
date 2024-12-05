@@ -2,7 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Notable&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+TAS:wght@100..400&display=swap');
 
 :root {
     --cor1: #1B1A40; 
@@ -13,7 +13,7 @@
 
     --font-padrao: Arial, Helvetica, sans-serif;
     --font-destaque: 'Notable', sans-serif;
-    --font-cordel: 'Bad Script', cursive; 
+    --font-cordel: 'Playwrite AU TAS', cursive; 
 }
 
 * {
