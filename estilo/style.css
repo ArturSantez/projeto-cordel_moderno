@@ -8,8 +8,8 @@
     --cor1: #1B1A40; 
     --cor2: #CFC9F2; 
     --cor3: #F5F5F5;
-    --cor4: #252455;
-    --cor5: #3d3a8350;
+    --cor4: #5549A6;
+    --cor5: #6254bf6b;
 
     --font-padrao: Arial, Helvetica, sans-serif;
     --font-destaque: 'Notable', sans-serif;
@@ -55,7 +55,7 @@ a:hover {
 section {
     font-family: var(--font-cordel);
     padding-top: 8vh;
-    padding-bottom: 8vh;
+    padding-bottom: 5vh;
     padding-left: 40px;
     font-weight: bolder;
     font-size: 3.5vw;
@@ -86,7 +86,7 @@ section#img01 {
     background-size: cover;
 }
 section#img02 {
-    background: var(--cor4) url('../imagens/background002.jpg') center no-repeat fixed;
+    background: var(--cor4) url('../imagens/background002.jpg') center right no-repeat fixed;
     background-size: cover;
 }
 
