@@ -9,11 +9,11 @@
     --cor2: #000000; 
     --cor3: #F5F5F5;
     --cor4: #737373;
-    --cor5: #59595957;
+    --cor5: #7e7d7d6b;
 
     --font-padrao: Arial, Helvetica, sans-serif;
     --font-destaque: 'Notable', sans-serif;
-    --font-cordel: 'Bad Script'; 
+    --font-cordel: 'Bad Script', caligrafy; 
 }
 
 * {
@@ -76,6 +76,7 @@ section.imagem {
 }
 section.imagem > p {
     background-color: var(--cor5);
+    border-radius: 10px;
     width: 50vw;
     padding-left: 10px;
 }
