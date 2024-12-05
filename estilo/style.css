@@ -7,9 +7,9 @@
 :root {
     --cor1: #1B1A40; 
     --cor2: #CFC9F2; 
-    --cor3: #F5F5F5;
+    --cor3: #F2F2F2;
     --cor4: #5549A6;
-    --cor5: #1b1a408e;
+    --cor5: #1b1a4070;
     --cor6: #6254bf6b;
 
     --font-padrao: Arial, Helvetica, sans-serif;
@@ -24,7 +24,6 @@
 
 html, body {
     font-family: var(--font-padrao);
-    min-height: 100vh;
     background-color: var(--cor3);
 }
 
@@ -55,7 +54,7 @@ a:hover {
 
 section {
     font-family: var(--font-cordel);
-    padding-top: 8vh;
+    padding-top: 6.5vh;
     padding-bottom: 5vh;
     padding-left: 40px;
     font-weight: bolder;
@@ -71,15 +70,16 @@ section.normal {
 section.imagem {
     background-color: var(--cor4);
     color: var(--cor3);
-    box-shadow: inset 0px 0px 20px 1px black;
     box-shadow: inset 0px 0px 14px 0px rgba(0, 0, 0, 0.384);
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
 }
 section.imagem > p {
     background-image: linear-gradient( to right, var(--cor5), var(--cor6));
-    border-top-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
     width: 50vw;
+    padding-top: 10px;
+    padding-bottom: 10px;
     padding-left: 10px;
 }
 section#img01 {
