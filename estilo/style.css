@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Notable&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
+
+:root {
+    --cor1: #F8AFB6; 
+    --cor2: #000000; 
+    --cor3: #F5F5F5;
+    --cor4: #737373;
+    --cor5: #59595957;
+
+    --font-padrao: Arial, Helvetica, sans-serif;
+    --font-destaque: 'Notable', sans-serif;
+    --font-cordel: 'Bad Script'; 
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    font-family: var(--font-padrao);
+    min-height: 100vh;
+    background-color: var(--cor3);
+}
+
+header {
+    background-color: var(--cor1);
+    text-align: center;
+}
+header > h1 {
+    padding-top: 50px;
+    font-variant: small-caps;
+    font-family: var(--font-destaque);
+    font-size: 8vw;
+}
+header > p {
+    margin-top: 10px;
+    padding-bottom: 50px;
+}
+
+a {
+    color: var(--cor2);
+    text-decoration: none;
+    font-weight: bolder;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+section {
+    font-family: var(--font-cordel);
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 40px;
+    font-weight: bolder;
+    font-size: 3.5vw;
+    line-height: 3em;
+}
+section > p {
+    padding-bottom: 2em;
+}
+section.normal {
+    background-color: var(--cor3);
+    color: var(--cor2);
+}
+section.imagem {
+    background-color: var(--cor4);
+    color: var(--cor3);~
+    box-shadow: inset 0px 0px 20px 1px black;
+    box-shadow: inset 0px 0px 14px 0px rgba(0, 0, 0, 0.384);
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+}
+section.imagem > p {
+    background-color: var(--cor5);
+    width: 50vw;
+    padding-left: 10px;
+}
+section#img01 {
+    background: var(--cor4) url('../imagens/background001.jpg') center no-repeat fixed;
+    background-size: cover;
+}
+section#img02 {
+    background: var(--cor4) url('../imagens/background002.jpg') center no-repeat fixed;
+    background-size: cover;
+}
+
+footer {
+    background-color: var(--cor1);
+    text-align: center; 
+    padding: 10px;
+}
