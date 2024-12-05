@@ -63,7 +63,7 @@ section {
     line-height: 3em;
 }
 section > p {
-    padding-bottom: 2em;
+    padding-bottom: 1.5em;
 }
 section.normal {
     background-color: var(--cor3);
