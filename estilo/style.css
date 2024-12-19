@@ -36,7 +36,7 @@ header > h1 {
     padding-top: 50px;
     font-variant: small-caps;
     font-family: var(--font-destaque);
-    font-size: 8vw;
+    font-size: 3em;
 }
 header > p {
     margin-top: 10px;
@@ -54,11 +54,11 @@ a:hover {
 
 section {
     font-family: var(--font-cordel);
-    padding-top: 6.5vh;
-    padding-bottom: 5vh;
+    padding-top: 30px;
+    padding-bottom: 20px;
     padding-left: 40px;
     font-weight: bolder;
-    font-size: 3.5vw;
+    font-size: 1.5em;
     line-height: 3em;
 }
 section > p {
